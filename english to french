@@ -1,0 +1,9 @@
+from translate import Translator
+translator= Translator(from_lang="english",to_lang="french")
+translation = translator.translate("friend")
+print (translation)
+
+from translate import Translator
+translator= Translator(from_lang="english",to_lang="french")
+translation = translator.translate("free")
+print (translation)
